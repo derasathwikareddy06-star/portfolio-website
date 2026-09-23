@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sathwika Reddy - 4th-year B.Tech CSE (AI & ML) student at Guru Nanak Institute of Technology (GNIT), Developer & AI/ML Enthusiast.">
+  <meta name="keywords" content="Sathwika Reddy, Portfolio, AI, Machine Learning, NLP, Python, GNIT, Web Developer, Computer Science">
+  <meta name="author" content="Sathwika Reddy">
+  <title>Sathwika Reddy | CSE (AI & ML) Student & Developer</title>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-name">Sathwika Reddy</span>
+        <span class="status-indicator" title="Final Year Student • Open to Opportunities"></span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu">
+        <i data-lucide="menu" class="icon-open"></i>
+        <i data-lucide="x" class="icon-close"></i>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-action">
+          <a href="#contact" class="btn btn-sm btn-primary">Get in Touch</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span>4th Year B.Tech CSE (AI & ML) • GNIT</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-accent">Sathwika Reddy</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            CSE (AI & ML) Student <span class="separator">|</span> Developer <span class="separator">|</span> AI/ML Enthusiast
+          </p>
+
+          <p class="hero-description">
+            I enjoy building practical projects while exploring AI, machine learning, NLP and web development. Focused on writing clean code and developing computational solutions to solve real-world problems.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <i data-lucide="folder-code"></i>
+              View My Projects
+            </a>
+            <a href="#resumeModal" class="btn btn-secondary" id="openResumeBtn">
+              <i data-lucide="file-text"></i>
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Connect with me:</span>
+            <div class="social-links">
+              <a href="https://linkedin.com/in/sathwikareddydera" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+                <i data-lucide="linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+                <i data-lucide="github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="mailto:sathwikareddydera@gmail.com" class="social-link" title="Send Email">
+                <i data-lucide="mail"></i>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Profile Image Placeholder -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-image-wrapper">
+              <!-- Replace with actual profile image when available: <img src="assets/profile.jpg" alt="Sathwika Reddy" class="profile-img"> -->
+              <div class="avatar-placeholder" id="avatarBox">
+                <div class="avatar-initials">SR</div>
+                <div class="avatar-helper">
+                  <i data-lucide="camera" class="avatar-icon"></i>
+                  <span>Profile Photo</span>
+                  <small>Replace in <code>assets/profile.jpg</code></small>
+                </div>
+              </div>
+            </div>
+            
+            <div class="profile-card-footer">
+              <div class="profile-status-item">
+                <span class="status-dot-active"></span>
+                <span>Available for Internship & Full-time Roles</span>
+              </div>
+              <div class="profile-meta-tags">
+                <span class="meta-tag">Hyderabad, India</span>
+                <span class="meta-tag">GNIT '26</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Background & Academic Journey</h2>
+          <p class="section-subtitle">A glimpse into who I am, what I study, and what drives my passion for technology.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <p class="lead-text">
+              I'm a Computer Science and Engineering student specializing in <strong>Artificial Intelligence and Machine Learning</strong> at Guru Nanak Institute of Technology (GNIT).
+            </p>
+            <p>
+              I enjoy building practical projects and learning how technology can be used to solve real-world problems. My interest lies at the intersection of data-driven systems, natural language processing, and intuitive software applications.
+            </p>
+            <p>
+              Throughout my academic journey, I have focused on building solid fundamentals in core computer science—Data Structures, Algorithms, Database Management, and Object-Oriented Programming—while actively applying modern Machine Learning algorithms and Web technologies in hands-on projects.
+            </p>
+            <p>
+              When I'm not coding or training models, I like exploring new developer tools, participating in technical workshops, and staying updated with emerging trends in Artificial Intelligence.
+            </p>
+
+            <div class="about-highlights-list">
+              <div class="highlight-item">
+                <i data-lucide="check-circle-2" class="highlight-icon"></i>
+                <div>
+                  <strong>Problem Solver:</strong> Practicing data structures and computational logic.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="check-circle-2" class="highlight-icon"></i>
+                <div>
+                  <strong>Applied AI & ML:</strong> Building end-to-end data pipelines and models using Python & Scikit-Learn.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="check-circle-2" class="highlight-icon"></i>
+                <div>
+                  <strong>Team Collaborator:</strong> Active participant in hackathons and college technical initiatives.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="info-card">
+              <h3 class="info-card-title">Quick Information</h3>
+              <ul class="info-list">
+                <li>
+                  <span class="info-key"><i data-lucide="user"></i> Name:</span>
+                  <span class="info-val">Sathwika Reddy</span>
+                </li>
+                <li>
+                  <span class="info-key"><i data-lucide="graduation-cap"></i> Degree:</span>
+                  <span class="info-val">B.Tech - CSE (AI & ML)</span>
+                </li>
+                <li>
+                  <span class="info-key"><i data-lucide="building"></i> College:</span>
+                  <span class="info-val">Guru Nanak Institute of Technology</span>
+                </li>
+                <li>
+                  <span class="info-key"><i data-lucide="calendar"></i> Year of Study:</span>
+                  <span class="info-val">4th Year (Final Year)</span>
+                </li>
+                <li>
+                  <span class="info-key"><i data-lucide="map-pin"></i> Location:</span>
+                  <span class="info-val">Hyderabad, Telangana, India</span>
+                </li>
+                <li>
+                  <span class="info-key"><i data-lucide="languages"></i> Languages:</span>
+                  <span class="info-val">English, Telugu, Hindi</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="focus-card">
+              <h3 class="focus-title"><i data-lucide="compass"></i> Primary Focus Areas</h3>
+              <div class="focus-pills">
+                <span class="focus-pill">Machine Learning</span>
+                <span class="focus-pill">Natural Language Processing</span>
+                <span class="focus-pill">Data Analytics</span>
+                <span class="focus-pill">Full-Stack Basics</span>
+                <span class="focus-pill">Python Development</span>
+                <span class="focus-pill">Algorithm Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Languages, libraries, and developer tools I actively use in my coursework and projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i data-lucide="code-2"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <p class="category-desc">Core languages used for development and problem-solving</p>
+              </div>
+            </div>
+            <div class="skill-chips-group">
+              <span class="skill-chip">
+                <span class="chip-name">Python</span>
+                <span class="chip-level">Primary</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">C / C++</span>
+                <span class="chip-level">Academic</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Java</span>
+                <span class="chip-level">Core OOP</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">SQL</span>
+                <span class="chip-level">Database</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">JavaScript</span>
+                <span class="chip-level">Web Basics</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Category 2: AI / ML & Data Science -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i data-lucide="brain"></i>
+              </div>
+              <div>
+                <h3 class="category-title">AI, ML & Data Science</h3>
+                <p class="category-desc">Machine learning, NLP, data cleaning and visualization</p>
+              </div>
+            </div>
+            <div class="skill-chips-group">
+              <span class="skill-chip">
+                <span class="chip-name">Machine Learning</span>
+                <span class="chip-level">Supervised/Unsupervised</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">NLP</span>
+                <span class="chip-level">Text Processing</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Scikit-Learn</span>
+                <span class="chip-level">Model Training</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Pandas & NumPy</span>
+                <span class="chip-level">Data Wrangling</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Matplotlib / Seaborn</span>
+                <span class="chip-level">Visualization</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Deep Learning Basics</span>
+                <span class="chip-level">ANN / CNN</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Category 3: Web & Frameworks -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i data-lucide="layout"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Web & Frameworks</h3>
+                <p class="category-desc">Building interactive interfaces and deployment tools</p>
+              </div>
+            </div>
+            <div class="skill-chips-group">
+              <span class="skill-chip">
+                <span class="chip-name">HTML5 & CSS3</span>
+                <span class="chip-level">Responsive Layouts</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Streamlit</span>
+                <span class="chip-level">ML Apps</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Flask</span>
+                <span class="chip-level">REST APIs</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">React.js</span>
+                <span class="chip-level">Fundamentals</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">RESTful APIs</span>
+                <span class="chip-level">Integration</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools, Databases & CS Core -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i data-lucide="terminal"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Tools & Core Fundamentals</h3>
+                <p class="category-desc">Development workflows, databases and computing foundations</p>
+              </div>
+            </div>
+            <div class="skill-chips-group">
+              <span class="skill-chip">
+                <span class="chip-name">Git & GitHub</span>
+                <span class="chip-level">Version Control</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">MySQL</span>
+                <span class="chip-level">RDBMS</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">VS Code</span>
+                <span class="chip-level">Editor</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Jupyter / Colab</span>
+                <span class="chip-level">Notebooks</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">Data Structures & Algo</span>
+                <span class="chip-level">Core Concept</span>
+              </span>
+              <span class="skill-chip">
+                <span class="chip-name">DBMS & OS</span>
+                <span class="chip-level">Core Concept</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Realistic, practical applications I built during my engineering studies.</p>
+        </div>
+
+        <!-- Project Category Filters -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai-ml">AI & Machine Learning</button>
+          <button class="filter-btn" data-filter="nlp">NLP</button>
+          <button class="filter-btn" data-filter="web">Web & Utility</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: NLP Text Summarization -->
+          <article class="project-card" data-category="nlp">
+            <div class="project-header">
+              <div class="project-badge nlp-badge">
+                <i data-lucide="message-square-text"></i> NLP / Text Processing
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub Code">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+            
+            <h3 class="project-title">Clinical & Research Text Summarizer</h3>
+            <p class="project-description">
+              Developed an extractive and abstractive NLP text summarization pipeline to condense lengthy research papers and medical articles into structured summaries using tokenization, TF-IDF ranking, and transformer pre-trained models.
+            </p>
+
+            <div class="project-highlights">
+              <ul>
+                <li>Integrated ROUGE score evaluation for assessing summary accuracy.</li>
+                <li>Built a lightweight Streamlit interface for instant document upload and summary generation.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">NLTK / HuggingFace</span>
+              <span class="tech-tag">TF-IDF</span>
+              <span class="tech-tag">Streamlit</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="project-cta-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Customer Churn Prediction -->
+          <article class="project-card" data-category="ai-ml">
+            <div class="project-header">
+              <div class="project-badge ml-badge">
+                <i data-lucide="trending-up"></i> Machine Learning
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub Code">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+            
+            <h3 class="project-title">Customer Churn & Behavioral Predictor</h3>
+            <p class="project-description">
+              Engineered an end-to-end predictive analytics pipeline to identify high-risk churn customers for subscription-based services based on historical behavioral and transaction logs.
+            </p>
+
+            <div class="project-highlights">
+              <ul>
+                <li>Performed extensive exploratory data analysis (EDA), outlier treatment, and feature scaling.</li>
+                <li>Compared Logistic Regression, Random Forest, and XGBoost; optimized ROC-AUC score.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Scikit-Learn</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Matplotlib</span>
+              <span class="tech-tag">XGBoost</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="project-cta-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Smart Agriculture Disease Detection -->
+          <article class="project-card" data-category="ai-ml">
+            <div class="project-header">
+              <div class="project-badge ai-badge">
+                <i data-lucide="cpu"></i> Computer Vision & AI
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub Code">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+            
+            <h3 class="project-title">Plant Leaf Disease Detection System</h3>
+            <p class="project-description">
+              A computer vision project trained to classify healthy vs. diseased plant leaves from dataset imagery to assist farmers in early detection and recommended treatment.
+            </p>
+
+            <div class="project-highlights">
+              <ul>
+                <li>Implemented image pre-processing, augmentation, and Convolutional Neural Network (CNN) architecture.</li>
+                <li>Integrated web interface allowing users to upload leaf photos and receive real-time classification with confidence scores.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">TensorFlow / Keras</span>
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">Flask</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="project-cta-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Interactive Student Academic Record Portal -->
+          <article class="project-card" data-category="web">
+            <div class="project-header">
+              <div class="project-badge web-badge">
+                <i data-lucide="globe"></i> Web Application
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub Code">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+            
+            <h3 class="project-title">Student Performance & Attendance Tracker</h3>
+            <p class="project-description">
+              A responsive database-driven web application to manage student academic records, calculate semester GPAs, track attendance thresholds, and visualize grade distributions.
+            </p>
+
+            <div class="project-highlights">
+              <ul>
+                <li>Designed normalized relational database schema in MySQL for courses and student enrollments.</li>
+                <li>Implemented secure user session management, search filters, and automated report generation.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5 / CSS3</span>
+              <span class="tech-tag">Python (Flask)</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="project-cta-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Journey</span>
+          <h2 class="section-title">Education & Practical Exposure</h2>
+          <p class="section-subtitle">Academic timeline, internships, and technical development.</p>
+        </div>
+
+        <div class="timeline-grid">
+          <!-- Column 1: Education -->
+          <div class="timeline-column">
+            <div class="column-header">
+              <i data-lucide="graduation-cap" class="column-icon"></i>
+              <h3 class="column-title">Education</h3>
+            </div>
+
+            <div class="timeline-wrapper">
+              <!-- Item 1: B.Tech -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">2022 – 2026 (Present)</span>
+                  <h4 class="timeline-role">B.Tech in Computer Science & Engineering (AI & ML)</h4>
+                  <h5 class="timeline-org">Guru Nanak Institute of Technology (GNIT), Hyderabad</h5>
+                  <p class="timeline-desc">
+                    4th-Year Undergraduate specializing in Artificial Intelligence and Machine Learning. 
+                    Coursework includes Data Structures & Algorithms, Deep Learning, Natural Language Processing, Machine Learning, Operating Systems, Database Management Systems, and Computer Networks.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 2: Intermediate -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">2020 – 2022</span>
+                  <h4 class="timeline-role">Intermediate (Class XII) – MPC Stream</h4>
+                  <h5 class="timeline-org">Telangana State Board of Intermediate Education</h5>
+                  <p class="timeline-desc">
+                    Completed higher secondary education with major subjects in Mathematics, Physics, and Chemistry with strong analytical grounding.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 3: School -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">Completed 2020</span>
+                  <h4 class="timeline-role">Secondary School Certificate (Class X)</h4>
+                  <h5 class="timeline-org">State Board of Secondary Education</h5>
+                  <p class="timeline-desc">
+                    Built a strong foundation in science, mathematics, and basic computing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Practical Experience & Certifications -->
+          <div class="timeline-column">
+            <div class="column-header">
+              <i data-lucide="briefcase" class="column-icon"></i>
+              <h3 class="column-title">Experience & Activities</h3>
+            </div>
+
+            <div class="timeline-wrapper">
+              <!-- Experience 1 -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">Academic & Internship Exposure</span>
+                  <h4 class="timeline-role">AI & ML Project Developer</h4>
+                  <h5 class="timeline-org">Academic Capstone & Hands-on Practicums</h5>
+                  <p class="timeline-desc">
+                    Collaborated in teams to design, preprocess data, train machine learning models, and document software requirements following standard engineering practices.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Certifications Item -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">Continuous Learning</span>
+                  <h4 class="timeline-role">Certifications & Training</h4>
+                  <div class="certifications-list">
+                    <div class="cert-item">
+                      <i data-lucide="award"></i>
+                      <span>Python for Data Science & Machine Learning</span>
+                    </div>
+                    <div class="cert-item">
+                      <i data-lucide="award"></i>
+                      <span>Machine Learning Foundations & Supervised Algorithms</span>
+                    </div>
+                    <div class="cert-item">
+                      <i data-lucide="award"></i>
+                      <span>Database Management Systems (SQL) Fundamentals</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Extracurricular / College item -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">Campus Engagement</span>
+                  <h4 class="timeline-role">Technical Workshops & Hackathons</h4>
+                  <h5 class="timeline-org">GNIT Campus Activities</h5>
+                  <p class="timeline-desc">
+                    Participated in college technical symposiums, coding contests, and collaborative project presentations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">Feel free to reach out for opportunities, collaborations, or project discussions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Contact Information</h3>
+            <p class="contact-panel-desc">
+              I am actively seeking software development and AI/ML opportunities. Whether you have an internship opening, a project idea, or just want to connect, my inbox is always open.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-card">
+                <div class="method-icon-box">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div>
+                  <span class="method-label">Direct Email</span>
+                  <a href="mailto:sathwikareddydera@gmail.com" class="method-value">sathwikareddydera@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="method-icon-box">
+                  <i data-lucide="linkedin"></i>
+                </div>
+                <div>
+                  <span class="method-label">LinkedIn Profile</span>
+                  <a href="https://linkedin.com/in/sathwikareddydera" target="_blank" rel="noopener noreferrer" class="method-value">
+                    linkedin.com/in/sathwikareddydera
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="method-icon-box">
+                  <i data-lucide="github"></i>
+                </div>
+                <div>
+                  <span class="method-label">GitHub Profile</span>
+                  <a href="https://github.com/derasathwikareddy06-star" target="_blank" rel="noopener noreferrer" class="method-value">
+                    github.com/derasathwikareddy06-star
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="method-icon-box">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div>
+                  <span class="method-label">Location</span>
+                  <span class="method-value">Hyderabad, Telangana, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contactForm">
+              <h3 class="form-title">Send a Message</h3>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="senderName" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Alex Johnson" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderEmail" class="form-label">Your Email <span class="required">*</span></label>
+                  <input type="email" id="senderEmail" class="form-input" placeholder="e.g. alex@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="messageSubject" class="form-label">Subject <span class="required">*</span></label>
+                <input type="text" id="messageSubject" class="form-input" placeholder="e.g. Job Opportunity / Collaboration / Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="messageBody" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="messageBody" rows="5" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <i data-lucide="send"></i>
+                <span>Send Message</span>
+              </button>
+
+              <div class="form-feedback" id="formFeedback" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Resume Preview Modal -->
+  <div class="modal-backdrop" id="resumeModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <i data-lucide="file-text" class="text-accent"></i>
+          <div>
+            <h3 class="modal-title">Sathwika Reddy - Resume</h3>
+            <span class="modal-subtitle">B.Tech CSE (AI & ML) • 4th Year</span>
+          </div>
+        </div>
+        <button class="modal-close" id="closeResumeBtn" aria-label="Close modal">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="resume-preview-box">
+          <div class="resume-header-preview">
+            <h4>SATHWIKA REDDY</h4>
+            <p>Hyderabad, Telangana | sathwikareddydera@gmail.com</p>
+            <p>
+              <a href="https://linkedin.com/in/sathwikareddydera" target="_blank">LinkedIn</a> | 
+              <a href="https://github.com/derasathwikareddy06-star" target="_blank">GitHub</a>
+            </p>
+          </div>
+          
+          <div class="resume-section-preview">
+            <h5 class="resume-sec-title">EDUCATION</h5>
+            <p><strong>B.Tech in Computer Science & Engineering (AI & ML)</strong> (2022 - 2026)</p>
+            <p>Guru Nanak Institute of Technology (GNIT), Hyderabad</p>
+          </div>
+
+          <div class="resume-section-preview">
+            <h5 class="resume-sec-title">CORE SKILLS</h5>
+            <p><strong>Languages:</strong> Python, C, C++, Java, SQL, JavaScript</p>
+            <p><strong>AI/ML & NLP:</strong> Machine Learning, Natural Language Processing, Scikit-Learn, Pandas, NumPy, Matplotlib</p>
+            <p><strong>Web & Tools:</strong> HTML5, CSS3, Streamlit, Flask, Git, GitHub, MySQL, VS Code</p>
+          </div>
+
+          <div class="resume-section-preview">
+            <h5 class="resume-sec-title">KEY PROJECTS</h5>
+            <p>• <strong>Clinical & Research Text Summarizer</strong> (NLP, Python, Streamlit, HuggingFace)</p>
+            <p>• <strong>Customer Churn & Behavioral Predictor</strong> (ML, Scikit-Learn, Pandas, XGBoost)</p>
+            <p>• <strong>Plant Leaf Disease Detection System</strong> (Computer Vision, CNN, Flask)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="modalDismissBtn">Close</button>
+        <button class="btn btn-primary" id="downloadResumeFileBtn">
+          <i data-lucide="download"></i>
+          <span>Download PDF / Text</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-copy">&copy; <span id="currentYear">2026</span> <strong>Sathwika Reddy</strong>. All rights reserved.</p>
+        <p class="footer-sub">B.Tech CSE (AI & ML) • Guru Nanak Institute of Technology (GNIT)</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#home" class="back-to-top" title="Back to top">
+          <span>Back to Top</span>
+          <i data-lucide="arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
